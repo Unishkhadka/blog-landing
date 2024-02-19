@@ -14,9 +14,9 @@
 
 <body style="font-family: 'Lexend', sans-serif;">
     <header>
-        <nav class="container mx-auto flex items-center justify-between px-24 py-5">
+        <nav class="container mx-auto flex items-center justify-between px-4 md:px-24 py-5">
             <div class="text-3xl"><span class="text-blue-700 pr-2 font-semibold border-r-2 border-blue-700">B</span> blogic</div>
-            <div>
+            <div class="hidden md:block">
                 <ul class="flex items-center gap-6">
                     <li class="text-black">Home</li>
                     <li class="text-gray-500">Recent Post</li>
@@ -31,31 +31,31 @@
             </div>
         </nav>
     </header>
-    <main class="container mx-auto px-24">
-        <div class="mt-20 grid grid-cols-2 flex justify-between">
+    <main class="container mx-auto px-4 md:px-24">
+        <div class="mt-20 grid grid-cols-1 md:grid-cols-2 flex justify-between">
             <div class="width-64">
                 <div class="text-4xl">Sharing stories, insights, and ideas that inspire</div>
                 <div class="text-gray-500 mt-5">Fostering Meaningful Connections through the Art of Storytelling: Offering a Rich Tapestry of Inspiring Narratives, Thoughtful Insights, and Forward-Thinking Ideas to Spark Creativity and Empowerment. Inviting you to explore, connect, and grow through the transformative power of stories.</div>
             </div>
-            <div class="flex gap-4 mt-32 justify-end">
+            <div class="flex gap-4 mt-4 md:mt-32 justify-end ">
                 <i class="fa-brands fa-facebook text-xl" style="color: blue;""></i>
                 <i class=" fa-brands fa-twitter text-xl" style="color: lightseagreen;"></i>
                 <i class="fa-brands fa-pinterest text-xl" style="color: red;"></i>
             </div>
         </div>
-        <div class="mt-10">
+        <div class="my-4 md:mt-10">
             <form action="">
-                <div class="flex gap-8">
+                <div class="md:flex gap-8">
                     <div
                         class="flex items-center rounded-full shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 bg-gray-200 relative focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
                         <i class="fa-solid fa-magnifying-glass absolute left-3"></i>
                         <input type="text" name="username" id="username" autocomplete="username"
-                            class="block rounded-full  border-0 bg-gray-200 py-2 pl-10 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
-                            placeholder="Search Here" style="width: 370px">
+                            class="block rounded-full w-full border-0 bg-gray-200 py-2 pl-10 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
+                            placeholder="Search Here">
                     </div>
             </form>
-            <div>
-                <ul class="flex items-center gap-8">
+            <div class="mt-4 md:mt-0 ">
+                <ul class="flex flex-wrap items-center gap-5 md:gap-8">
                     <li class="bg-[#014DE7] text-white rounded-full px-4 py-1">All</li>
                     <li class="hover:cursor-pointer">Technology</li>
                     <li class="hover:cursor-pointer">Sport</li>
@@ -69,7 +69,7 @@
         </div>
         <div class="text-3xl my-10"><span class="font-light">Our</span> <span class="font-semibold">Best Article</span></div>
         </div>
-        <div class="grid grid-cols-3 gap-10 mb-5 mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-5 mx-auto">
             <div class="w-full rounded-t overflow-hidden shadow-sm">
                 <span class="px-3 absolute mt-10 text-white rounded-r-full py-1 bg-red-500">Lifestyle</span>
                 <div class="flex items-center gap-2 bg-white py-1 text-xs ml-5 px-2 rounded-full absolute mt-96"><img class="rounded-full object-cover" src="daniel.jpg" style="width: 30px; height: 30px;"> <span class="text-semibold">Daniel Anderson</span></div>
@@ -133,8 +133,8 @@
         </div>
     </main>
     <footer class="mt-20 py-8 bg-gray-100">
-        <div class="flex container mx-auto items-center px-24 justify-between">
-            <div class="text-xl"><span class="text-blue-700 pr-2 font-semibold border-r-2 border-blue-700">B</span> blogic</div>
+        <div class="flex flex-col md:flex-row container mx-auto items-center px-4 md:px-24 justify-between">
+            <div class="text-xl mb-2 md:mb-0"><span class="text-blue-700 pr-2 font-semibold border-r-2 border-blue-700">B</span> blogic</div>
             <div>
         <div class="text-gray-700">&copy; Copyright 2024 @khadkaunish</div>
         </div>
